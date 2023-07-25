@@ -1,0 +1,11 @@
+.lp-page {
+  .lp-resume {
+    height: 300px;
+    width: 400px;
+  }
+  @media (max-width: 400px) {
+    .lp-resume {
+      width: 100%;
+    }
+  }
+}
